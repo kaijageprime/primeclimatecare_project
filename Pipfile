@@ -9,6 +9,8 @@ psycopg2-binary = "==2.8.4"
 django-crispy-forms = "*"
 crispy-bootstrap4 = "*"
 django-allauth = "*"
+pillow = "==9.3.0"
+stripe = "*"
 
 [dev-packages]
 
