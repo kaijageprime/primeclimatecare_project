@@ -6,7 +6,7 @@
 
 {% block content %}
 
-    <h2>Thank you for your order! You now have access to
+    <h2>Thank you {{ user.email }}! for your order! You now have access to
     <a href="{% url 'book_list' %}">All Books</a>.</h2>
     
 {% endblock content %}
